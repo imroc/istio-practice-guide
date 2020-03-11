@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes 实践指南"
+title: "Istio 实践指南"
 ---
 
 {{% notice warning %}}
