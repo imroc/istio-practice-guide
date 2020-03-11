@@ -21,7 +21,8 @@ params:
   logo:
     text: "Istio 实践指南"
     image: "/images/istio.png"
-  
+  github:
+    repo: "imroc/istio-practice-guide"
   gitcomment:
     owner: "imroc"
     repo: "istio-practice-guide"
