@@ -1,0 +1,67 @@
+baseURL: "https://istio.imroc.io/"
+languageCode: zh
+defaultContentLanguage: zh
+title: "Istio 实践指南"
+theme: "hugo-theme-learn"
+metaDataFormat: "yaml"
+defaultContentLanguageInSubdir: false
+
+params:
+  description: "Istio 实践指南"
+  author: "roc"
+  showVisitedLinks: true
+  disableBreadcrumb: false
+  disableNextPrev: false
+  themeVariant: mine
+  ordersectionsby: weight
+  cdn:
+    enable: true
+    css: "https://kubetencent-1251707795.cos.accelerate.myqcloud.com/css/bundle.min.10bb02828e29fa3315241572ef5cf8181c079c0c86cfde9a587215c3f80fcf4e.css"
+    js: "https://kubetencent-1251707795.cos.accelerate.myqcloud.com/js/bundle.min.d2d3888b947d0dd3dbc4cf91680c3654991c1a1ca525f0696b0061acfc692f7e.js"
+  logo:
+    text: "Istio 实践指南"
+    image: "/images/istio.png"
+  
+  gitcomment:
+    owner: "imroc"
+    repo: "istio-practice-guide"
+    clientId: "6e0166abfd4b13fb3f6e"
+    admin: ["imroc"]
+    clientSecret: "9960a67408e0cc826566869e0e3247017004d007"
+
+outputs:
+  home: [ "HTML", "RSS", "JSON"]
+
+languages:
+  zh:
+    editURL: "https://github.com/imroc/istio-practice-guide/edit/master/content/zh/"
+    weight: 1
+    reward: true
+    contentDir: content/zh
+    languageName: 简体中文
+    dateFormat: "2006-01-02"
+    reward: true
+    algolia:
+      index: "istio-practice-guide-zh"
+      key: "5b4678e9995fe4211c4fa43ad2ffdab5"
+      appID: "B6Q6PSGUV5"
+    menu:
+    - shortcuts:
+        name: "<i class='fab fa-fw fa-github'></i> GitHub 仓库"
+        identifier: "ds"
+        url: "https://github.com/imroc/istio-practice-guide"
+        weight: 10
+  en:
+    weight: 2
+    algolia:
+      index: "istio-practice-guide-en"
+      key: "5b4678e9995fe4211c4fa43ad2ffdab5"
+      appID: "B6Q6PSGUV5"
+    contentDir: content/en
+    languageName: English
+    menu:
+    - shortcuts:
+        name: "<i class='fab fa-fw fa-github'></i> GitHub Repo"
+        identifier: "ds"
+        url: "https://github.com/imroc/istio-practice-guide"
+        weight: 10
