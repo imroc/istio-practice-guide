@@ -8,7 +8,7 @@
 },
 {
 	"uri": "https://istio.imroc.io/",
-	"title": "Kubernetes 实践指南",
+	"title": "Istio 实践指南",
 	"tags": [],
 	"description": "",
 	"content": " 本书还正在起草，请关注文章头部的成熟度提示\n 目录  注：不能点击的标题是还正在路上的内容\n  在线阅读 本书将支持中英文两个语言版本，通常文章会先用中文起草并更新，等待其内容较为成熟完善，更新不再频繁的时候才会翻译成英文，点击左上角切换语言。\n 中文: https://istio.imroc.io English: https://istio.imroc.io/en  项目源码 项目源码存放于 Github 上: https://github.com/imroc/istio-practice-guide\nLicense 署名-非商业性使用-相同方式共享 4.0 (CC BY-NC-SA 4.0)\n"
